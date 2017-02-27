@@ -1,0 +1,67 @@
+/* MIXINS */
+/*
+@media (max-width: $screen-xs-max) { ... }
+@media (min-width: $screen-sm-min) { ... }
+@media (max-width: $screen-sm-max) { ... }
+@media (min-width: $screen-md-min) { ... }
+@media (max-width: $screen-md-max) { ... }
+@media (min-width: $screen-lg-min) { ... }
+*/
+html, body {
+  height: 100%; }
+
+a {
+  color: #445878; }
+
+a:hover {
+  text-decoration: none; }
+
+.ttable {
+  display: table;
+  width: 100%;
+  height: 100%; }
+
+.ttable .theader {
+  display: table-row;
+  height: 40px; }
+
+.ttable .tablerow {
+  display: table-row; }
+
+.ttable .ttd {
+  display: table-cell;
+  vertical-align: top; }
+
+.ttable .table-sidebar {
+  background-color: #31353D;
+  width: 20px; }
+
+.ttable .table-content .scroller {
+  background-color: #EEEFF7;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+/*menu prin*/
+.ttable .table-sidebar ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.ttable .table-sidebar ul li a {
+  display: block;
+  padding: 7px 10px;
+  color: #92CDCF;
+  background-color: #31353D;
+  font-size: 2em;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease; }
+
+.ttable .table-sidebar ul li a:hover {
+  color: #31353D;
+  background-color: #EEEFF7; }
+
+/*# sourceMappingURL=app.css.map */

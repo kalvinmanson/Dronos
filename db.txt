@@ -1,0 +1,66 @@
+ORGANIZATION
+	user_id
+	name
+	picture
+	content
+
+AREAS
+	organization_id
+	name
+
+ORGANIZATION_USERS
+	organization_id
+	area_id
+	user_id
+	orole
+	points
+	active
+
+CLIENTS
+	organization_id
+	user_id
+	name
+	content
+
+PROJECTS
+	client_id
+	user_id
+
+TASKS
+	project_id
+	user_id
+	user_on_id
+	name
+	content
+	limit_date
+	work_date
+	work_hours
+	status
+
+TICKETS
+	client_id
+	area_id
+	name
+	content
+	status
+
+MESSAGES
+	user_id
+	sender_id
+	content
+	readed_at
+
+COMMENTS
+	user_id
+	project_id
+	task_id
+	ticket_id
+	content
+
+Uploads
+	user_id
+	client_id
+	project_id
+	task_id
+	ticket_id
+	comment_id
